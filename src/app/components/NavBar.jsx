@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function NavBar() {
   return (
 
-    <nav className=" h-[480px] pt-6 bg-zinc-900 text-white">
+    <nav className=" h-[480px] pt-6 bg-zinc-950 text-white">
     <div className='flex items-start justify-between w-full px-8'>
       <div className="flex items-center">
         <Image
@@ -20,16 +20,18 @@ export default function NavBar() {
         <Link className=' font-bold transform -skew-x-6' href="/">HOME</Link>
         <Link className=' font-bold transform -skew-x-6'  href="/">HOME</Link>
         <Link className=' font-bold transform -skew-x-6' href="/">HOME</Link>
+         <Link className=' font-bold transform -skew-x-6 bg-green-600 px-4 rounded-full' href="/">HOME</Link>
       </div>
 
     </div>
     <div>
-   <div className="flex justify-end">
+   <div className="flex justify-end ">
    <Image
-          src="/Img/1.png"
+          src="/Img/es4.png"
           width={400}
           height={400}
           alt="Picture of the author"
+          className="  pr-28 "
           
         />
    </div>
