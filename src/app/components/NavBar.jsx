@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
 
     <nav className=" h-[480px] pt-6 bg-zinc-950 text-white">
-    <div className='flex items-start justify-between w-full px-8'>
+    <div className="flex items-start justify-between w-full px-24 ">
       <div className="flex items-center">
         <Image
           src="/Img/spark.png"
@@ -24,18 +24,25 @@ export default function NavBar() {
       </div>
 
     </div>
-    <div>
-   <div className="flex justify-end ">
-   <Image
-          src="/Img/es4.png"
-          width={400}
-          height={400}
-          alt="Picture of the author"
-          className="  pr-28 "
-          
-        />
-   </div>
-    </div>
+
+
+   <div className="flex pt-4 space-between ">
+  <div className="w-[600px]  ml-28 flex-shrink-0 mr-auto">
+    <h2 className="">I AM VIRGINIA FREDES</h2>
+    <h3 className="font-bold text-4xl mt-16" > Developer web</h3>
+  </div>
+
+  <div className="flex justify-end">
+    <Image
+      src="/Img/es4.png"
+      width={400}
+      height={400}
+      alt="Picture of the author"
+      className="pr-28"
+    />
+  </div>
+</div>
+
   </nav>
     
   )
