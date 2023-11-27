@@ -6,7 +6,7 @@ export default function NavBar() {
   return (
 
     <nav className=" h-[550px]   text-black">
-      <div className="h-[100px] bg-gray-300 pt-9 flex l justify-between w-full px-10 lg:px-28" >
+      <div className="h-[100px] bg-gray-300 pt-9 flex lg: justify-between w-full px-10 lg:px-28" >
         <div className=" ">
 
           <h1 className=' font-bold transform -skew-x-6 bg-gradient-to-r from-sky-600 to-sky-900 bg-clip-text text-transparent'> DEVELOPER WEB</h1>
