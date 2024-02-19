@@ -11,8 +11,8 @@ import Image from "next/image"
 export default function Skrills (){
    return (
     <div className="px-10 lg:px-28">
-        <h1 className='  text-2xl font-bold lg:text-3xl bg-gradient-to-r from-sky-600 to-sky-900 bg-clip-text text-transparent'>Skrills</h1>
-        <div className=" pl-10 lg:pl-44 grid  grid-cols-3 gap-4 justify-center ">
+        <h1 className=' text-center lg:text-left text-2xl  lg:text-3xl bg-gradient-to-r from-sky-600 to-sky-900 bg-clip-text text-transparent'>Skrills</h1>
+        <div className=" mt-16  lg:pl-44 grid  grid-cols-3 gap-4 justify-center ">
      <IoLogoFirebase className="text-5xl" />
      <FaReact className="text-5xl" />
      <SiRedux  className="text-5xl" />
