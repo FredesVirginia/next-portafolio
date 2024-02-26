@@ -15,7 +15,7 @@ export default function Section1() {
                         Soy Analista en Sistemas y Desarrollador Web, y actualmente estoy explorando tambien las maravillas del Marketing Digital.
                     </p>
                     <p className='mb-3  text-gray-400'>
-                        Me enorgullece decir que soy el mejor esposo del mundo, alguien amable servicial y agil, esta último, producto de mi relación con la ansiedad. Y en mi defensa, no soy mi ansiedad, sino la persona que la experimenta y regula.
+                           jhh Me enorgullece decir que soy el mejor esposo del mundo, alguien amable servicial y agil, esta último, producto de mi relación con la ansiedad. Y en mi defensa, no soy mi ansiedad, sino la persona que la experimenta y regula.
                     </p>
                 </div>
             </div>
